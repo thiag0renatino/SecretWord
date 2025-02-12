@@ -58,8 +58,8 @@ function App() {
     let wordLetters = word.split("");
     wordLetters = wordLetters.map((letter) => letter.toLowerCase());
 
-    console.log(wordLetters);
-    console.log(word, category);
+    //console.log(wordLetters);
+    //console.log(word, category);
 
     // Fill states
     setPickedWord(word);
